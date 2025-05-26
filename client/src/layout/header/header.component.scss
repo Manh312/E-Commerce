@@ -1,0 +1,78 @@
+$tech-dark-alt: #292b31; // Màu xám đậm hơn, gần đen, phong cách công nghệ
+$tech-gold: #d4af37; // Màu vàng ánh kim cao cấp
+$tech-light: #f3f4f6; // Màu sáng để tương phản
+$tech-accent: #3b82f6; // Màu xanh công nghệ làm điểm nhấn
+
+header {
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 50; // Đảm bảo header nằm trên các phần tử khác khi cuộn
+
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .app-icon {
+      img {
+        height: auto;
+        width: 8rem;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+
+    .search-bar {
+      flex-grow: 1;
+      margin: 0 2rem;
+
+      input {
+        width: 100%;
+        padding: 0.75rem 1.5rem;
+        border: 1px solid $tech-light;
+        border-radius: 9999px;
+        outline: none;
+        background-color: $tech-light;
+        color: $tech-dark-alt;
+        font-size: 1rem;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+        &::placeholder {
+          color: $tech-dark-alt;
+          opacity: 0.7;
+        }
+
+        &:focus {
+          border-color: $tech-accent;
+          box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+        }
+      }
+    }
+
+    .actions {
+      display: flex;
+      gap: 1.5rem;
+
+      button {
+        color: $tech-light;
+        transition: color 0.3s ease, transform 0.3s ease;
+
+        &:hover {
+          color: $tech-gold;
+          transform: translateY(-3px);
+        }
+
+        mat-icon {
+          font-size: 1.60rem;
+        }
+      }
+    }
+  }
+}
