@@ -7,24 +7,16 @@ import { HomeComponent } from './home/home.component';
 import { LayoutModule } from '../layout/layout.module';
 import { HomePageComponent } from './home-page/home-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CarouselModule } from 'ngx-bootstrap/carousel';
-
-
 
 @NgModule({
-  declarations: [
-    AppComponent,   
-    HomeComponent,
-    HomePageComponent
-  ],
+  declarations: [AppComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     LayoutModule,
     BrowserAnimationsModule,
-    CarouselModule.forRoot()
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
