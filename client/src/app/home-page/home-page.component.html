@@ -1,38 +1,12 @@
 <div class="min-h-screen bg-gray-50">
-  <section class="mt-6">
+  <section>
     <carousel [isAnimated]="true" [interval]="myInterval" class="w-full">
-      <slide>
-        <div
-          class="relative w-full pb-[56.25%] overflow-hidden rounded-xl shadow-lg"
-        >
+      <slide *ngFor="let slide of slideStore">
+        <div>
           <img
-            src="/banner1.png"
-            alt="first slide"
-            class="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-            loading="lazy"
-          />
-        </div>
-      </slide>
-      <slide>
-        <div
-          class="relative w-full pb-[56.25%] overflow-hidden rounded-xl shadow-lg"
-        >
-          <img
-            src="/banner2.jpg"
-            alt="second slide"
-            class="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-            loading="lazy"
-          />
-        </div>
-      </slide>
-      <slide>
-        <div
-          class="relative w-full pb-[56.25%] overflow-hidden rounded-xl shadow-lg"
-        >
-          <img
-            src="/banner3.jpg"
-            alt="third slide"
-            class="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+            src="{{ slide.src }}"
+            alt="{{slide.alt}}"
+            class="top-0 left-0 w-full transition-transform duration-300 hover:scale-105"
             loading="lazy"
           />
         </div>
@@ -53,16 +27,16 @@
         <ng-container *ngFor="let slide of slidesStore">
           <ng-template carouselSlide [id]="slide.id">
             <mat-card
-              class="bg-white mx-2"
+              class="bg-white mx-2 h-105 flex flex-col"
               appearance="outlined"
             >
               <img
                 mat-card-image
                 [src]="slide.src"
                 [alt]="slide.alt"
-                class="w-full object-cover rounded-t-xl"
+                class="w-full object-cover rounded-t-xl p-3"
               />
-              <mat-card-content class="text-center p-4">
+              <mat-card-content class="text-center p-4 flex-1 flex items-center justify-center">
                 <p class="text-gray-800 font-semibold text-lg">
                   {{ slide.title }}
                 </p>
@@ -71,6 +45,16 @@
           </ng-template>
         </ng-container>
       </owl-carousel-o>
+    </div>
+  </section>
+  <section class="mt-5">
+    <div>
+      <div class="col-md-12 mb-2">
+        <h3 class="text-xl md:text-2xl font-bold text-gray-800 text-center">Sản phẩm phổ biến</h3>
+      </div>
+    </div>
+    <div class="row">
+
     </div>
   </section>
 </div>

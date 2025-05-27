@@ -19,6 +19,20 @@ import { CommonModule } from '@angular/common';
 })
 export class HomePageComponent {
   myInterval: number = 2000;
+  slideStore = [
+    {
+      src: '/banner1.png',
+      alt: 'Banner 1',
+    },
+    {
+      src: '/banner2.jpg',
+      alt: 'Banner 2',
+    },
+    {
+      src: '/banner3.jpg',
+      alt: 'Banner 3',
+    },
+  ];
 
   customOptions: OwlOptions = {
     loop: true,
