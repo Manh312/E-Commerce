@@ -8,6 +8,8 @@ namespace server.Repository
 
         Task<bool> AddUser(User user);
 
+        Task<bool> UpdateUser(User user);
+
         Task<List<User>> GetAllUsers();
     }
 }

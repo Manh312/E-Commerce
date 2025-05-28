@@ -3,7 +3,7 @@ using server.Entities;
 
 namespace server.Data
 {
-    public class AuthContext:DbContext
+    public class AuthContext : DbContext
     {
         public AuthContext(DbContextOptions<AuthContext> options): base(options)
         {
@@ -14,5 +14,6 @@ namespace server.Data
             base.OnConfiguring(optionsBuilder);
         }
         public DbSet<User> users { get; set; }
+
     }
 }

@@ -14,6 +14,9 @@ namespace server.Entities
         public string Password { get; set; }
         [Required]
         public string Address { get; set; } = "";
+        public string RefreshToken { get; set; }
+        public DateTime RefreshTokenExpire { get; set; }
+
 
     }
 }

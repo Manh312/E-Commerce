@@ -40,10 +40,17 @@ namespace server.Controllers
                 res.Message = "Invalid Credentials!";
                 return BadRequest(res);
             }
+            var refreshToken = _jwtHelper.GenerateRefreshToken();
+
+            user.RefreshToken = refreshToken;
+            user.RefreshTokenExpire = DateTime.Now.AddDays(2);
+
+            await _userRepository.UpdateUser(user);
 
             LoginUserResDto userDetail = new LoginUserResDto()
             {
-                AccessToken = this._jwtHelper.GenerateJwtToken(user)
+                AccessToken = this._jwtHelper.GenerateJwtToken(user),
+                RefreshToken = refreshToken
             };
 
             res.Data = userDetail;
@@ -80,6 +87,70 @@ namespace server.Controllers
             }
             res.Message = "User registered successfully!";
             return Ok(res);
+        }
+
+        [HttpPost]
+        [Route("refresh")]
+        public async Task<ActionResult<ResponseDto>> RefreshToken([FromBody] RefreshTokenDto req)
+        {
+            ResponseDto res = new ResponseDto();
+            if (req.RefreshToken == null || req.AccessToken == null)
+            {
+                res.IsSuccessed = false;
+                res.Message = "Invalid request!";
+                return BadRequest(res);
+            }
+            var refreshToken = req.RefreshToken;
+            var accessToken = req.AccessToken;
+
+            var principal = _jwtHelper.GetPrincipalFromExpiredToken(accessToken);
+            var email = principal.Identity.Name;
+
+            User? user = await this._userRepository.GetUserByEmail(email);
+
+            if (user == null || user.RefreshToken != refreshToken || user.RefreshTokenExpire <= DateTime.Now)
+            {
+                res.IsSuccessed = false;
+                res.Message = "Invalid request!";
+                return BadRequest(res);
+            }
+
+            refreshToken = _jwtHelper.GenerateRefreshToken();
+            accessToken = _jwtHelper.GenerateJwtToken(user);
+            user.RefreshToken = refreshToken;
+            user.RefreshTokenExpire = DateTime.Now.AddDays(2);
+
+            await _userRepository.UpdateUser(user);
+            RefreshTokenDto data = new RefreshTokenDto()
+            {
+                AccessToken = accessToken,
+                RefreshToken = refreshToken
+            };
+
+            res.Data = data;
+
+            return Ok(res);
+        }
+
+        [HttpPost, Authorize]
+        [Route("revoke")]
+        public async Task<ActionResult<ResponseDto>> Revoke()
+        {
+            ResponseDto res = new ResponseDto();
+            var email = User.Identity.Name;
+            User? user = await this._userRepository.GetUserByEmail(email);
+            if (user == null)
+            {
+                res.IsSuccessed = false;
+                res.Message = "Invalid request!";
+                return BadRequest(res);
+            }
+            user.RefreshToken = "";
+            await this._userRepository.UpdateUser(user);
+
+            res.Message = "User Successfully logged out!";
+            return Ok(res);
+
         }
     }
 }

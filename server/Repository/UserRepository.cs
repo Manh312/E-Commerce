@@ -26,5 +26,11 @@ namespace server.Repository
         {
             return await this._context.users.Where(u => u.Email == email).SingleOrDefaultAsync();
         }
+
+        public async Task<bool> UpdateUser(User user)
+        {
+            this._context.users.Attach(user);
+            return await this._context.SaveChangesAsync() > 0 ? true : false;
+        }
     }
 }

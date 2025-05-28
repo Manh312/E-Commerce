@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 IConfiguration configuration = builder.Configuration;
 
 // Add services to the container.
-builder.Services.AddDbContext<AuthContext>(opt => opt.UseInMemoryDatabase(configuration["ConnectionStrings:DbName"]?? "eCormmecel"));
+builder.Services.AddDbContext<AuthContext>(opt => opt.UseSqlServer(configuration["ConnectionStrings:Auth"]));
 
 builder.Services.AddControllers();
 
@@ -38,6 +38,7 @@ builder.Services.AddAuthentication(x =>
         IssuerSigningKey = new SymmetricSecurityKey(key),
         RequireExpirationTime = true,
         ValidateLifetime = true,
+        ClockSkew = TimeSpan.Zero
     };
 });
 
