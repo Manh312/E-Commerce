@@ -1,0 +1,48 @@
+﻿# Thư mục build và output
+bin/
+obj/
+
+# Thư mục chứa các gói NuGet
+packages/
+
+# Tệp cấu hình nhạy cảm
+*.user
+*.suo
+*.sln.docstates
+
+# Thư mục chứa các tệp tạm của IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Tệp log và tệp tạm
+*.log
+*.tmp
+
+# Thư mục chứa các tệp môi trường (nhạy cảm)
+.env
+appsettings.Development.json
+
+# Thư mục chứa các tệp publish
+publish/
+
+# Tệp khóa chứng chỉ (nếu có)
+*.pfx
+*.p12
+
+# Tệp cấu hình tự động của .NET
+*.csproj.user
+
+# Thư mục chứa các tệp kiểm thử (nếu không cần theo dõi)
+TestResults/
+
+# Tệp bộ nhớ đệm của Roslyn (trình biên dịch .NET)
+*.ide/
+
+# Bỏ qua các tệp DLL không cần thiết (nếu có trong thư mục khác)
+*.dll
+*.exe
+
+# Bỏ qua thư mục chứa các công cụ .NET
+.dotnet/
