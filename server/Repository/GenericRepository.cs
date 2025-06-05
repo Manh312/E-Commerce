@@ -22,10 +22,9 @@ namespace server.Repository
             _dbSet.Remove(entity);
             await _context.SaveChangesAsync();
         }
-        public async Task<bool> AddAsync(T entity)
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
-            await _context.Set<T>().AddAsync(entity);
-            return await _context.SaveChangesAsync() > 0;
+            return await _dbSet.ToListAsync();
         }
         public async Task<bool> UpdateAsync(T entity)
         {
