@@ -1,0 +1,90 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# -----------------------------------
+# Compiled output (Common for .NET and frontend)
+# -----------------------------------
+bin/
+obj/
+dist/
+build/
+tmp/
+
+# -----------------------------------
+# Node.js (Frontend - client)
+# -----------------------------------
+client/node_modules/
+client/npm-debug.log
+client/yarn-error.log
+client/dist/
+client/build/
+client/.angular/cache/  # Bao quát tsbuildinfo
+client/coverage/
+client/typings/
+client/*.log
+client/*.tmp
+client/*.js
+client/*.js.map  # Thêm để bỏ qua file map của Angular
+
+# -----------------------------------
+# .NET (Backend - server)
+# -----------------------------------
+server/bin/
+server/obj/
+server/packages/
+server/appsettings*.json
+server/publish/
+server/TestResults/
+server/*.csproj.user
+server/*.dll
+server/*.exe
+
+# -----------------------------------
+# IDEs and editors
+# -----------------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+.project
+.classpath
+*.launch
+.settings/
+*.sublime-workspace
+*.swp
+*~
+.history/
+.vs/**  # Đảm bảo bao quát toàn bộ thư mục .vs, bao gồm applicationhost.config
+*.suo
+*.sln.docstates
+*.user
+*.ide/
+DOCUMENT_LAYOUT*.json
+
+# -----------------------------------
+# Visual Studio IntelliCode, Copilot, and analysis tools
+# -----------------------------------
+*.db
+*.vsidx
+dtbcache.v2
+futdcache.v2
+*.metadata.v*.bin
+
+# -----------------------------------
+# System files
+# -----------------------------------
+.DS_Store
+Thumbs.db
+.env
+*.pfx
+*.p12
+
+# -----------------------------------
+# Miscellaneous
+# -----------------------------------
+.dotnet/
+.sass-cache/
+connect.lock
+libpeerconnection.log
+testem.log

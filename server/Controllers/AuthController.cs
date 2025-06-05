@@ -4,6 +4,7 @@ using server.Dto;
 using server.Entities;
 using server.Helper;
 using server.Repository;
+using System.Security.Claims;
 
 namespace server.Controllers
 {
@@ -103,8 +104,13 @@ namespace server.Controllers
             var refreshToken = req.RefreshToken;
             var accessToken = req.AccessToken;
 
+            Console.WriteLine($"AccessToken: {accessToken}");
+            Console.WriteLine($"RefreshToken: {refreshToken}");
+
             var principal = _jwtHelper.GetPrincipalFromExpiredToken(accessToken);
+            //var email = principal.FindFirst(ClaimTypes.Email)?.Value;
             var email = principal.Identity.Name;
+            Console.WriteLine($"Email from token: {email}");
 
             User? user = await this._userRepository.GetUserByEmail(email);
 

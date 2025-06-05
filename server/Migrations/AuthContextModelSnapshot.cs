@@ -10,7 +10,7 @@ using server.Data;
 
 namespace server.Migrations
 {
-    [DbContext(typeof(AuthContext))]
+    [DbContext(typeof(Data.DataContext))]
     partial class AuthContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -55,7 +55,7 @@ namespace server.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("users");
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

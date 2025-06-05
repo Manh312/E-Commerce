@@ -24,6 +24,7 @@ namespace server.Helper
             {
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 new Claim(JwtRegisteredClaimNames.Sid, user.UserId.ToString()),
+                new Claim(ClaimTypes.Name, user.Email),
                 new Claim(ClaimTypes.Email, user.Email),
                 //new Claim(ClaimTypes.Role, user.Role),
                 new Claim("Date", DateTime.Now.ToString()),

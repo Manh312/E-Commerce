@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 IConfiguration configuration = builder.Configuration;
 
 // Add services to the container.
-builder.Services.AddDbContext<AuthContext>(opt => opt.UseSqlServer(configuration["ConnectionStrings:Auth"]));
+builder.Services.AddDbContext<DbContext>(opt => opt.UseSqlServer(configuration["ConnectionStrings:Auth"]));
 
 builder.Services.AddControllers();
 
