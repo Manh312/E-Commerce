@@ -26,20 +26,14 @@ namespace server.Repository
         {
             return await _dbSet.ToListAsync();
         }
-        public async Task<bool> UpdateAsync(T entity)
+        public async Task<T> GetByIdAsync (int id)
         {
-            _context.Set<T>().Update(entity);
-            return await _context.SaveChangesAsync() > 0;
+            return await _dbSet.FindAsync(id);
         }
-        public async Task<bool> DeleteAsync(int id)
+        public async Task UpdateAsync(T entity)
         {
-            var entity = await GetByIdAsync(id);
-            if (entity == null) return false;
-            
-            _context.Set<T>().Remove(entity);
-            return await _context.SaveChangesAsync() > 0;
+            _dbSet.Update(entity);
+            await _context.SaveChangesAsync();
         }
-    }
-    {
     }
 }
