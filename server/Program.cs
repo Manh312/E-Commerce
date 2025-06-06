@@ -3,15 +3,18 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using server.Data;
 using server.Helper;
+using server.Interface.Repository;
 using server.Repository;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 IConfiguration configuration = builder.Configuration;
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+builder.Configuration.AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true);
 
 // Add services to the container.
-builder.Services.AddDbContext<DbContext>(opt => opt.UseSqlServer(configuration["ConnectionStrings:Auth"]));
+builder.Services.AddDbContext<DataContext>(opt => opt.UseSqlServer(configuration["ConnectionStrings:Auth"]));
 
 builder.Services.AddControllers();
 
@@ -44,6 +47,7 @@ builder.Services.AddAuthentication(x =>
 
 builder.Services.AddScoped<IJwtHelper, JwtHelper>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 builder.Services.AddSwaggerGen(options =>
 {

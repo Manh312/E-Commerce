@@ -1,12 +1,11 @@
-﻿namespace server.Repository
+﻿namespace server.Interface.Repository
 {
-    public interface IProductRepository
+    public interface IGenericRepository<T> where T : class
     {
-        public class IProductRepository
-        {
-            Task<List<Product>> GetAllProducts();
-            Task<bool> AddProduct(Product product);
-            Task<bool> DeleteProductById(int productId);
-        }
+            Task<IEnumerable<T>> GetAllAsync();
+            Task<T> GetByIdAsync(int id);
+            Task AddAsync(T entity);
+            Task UpdateAsync(T entity);
+            Task DeleteAsync(T entity);
     }
 }

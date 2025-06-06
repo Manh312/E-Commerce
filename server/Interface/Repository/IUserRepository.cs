@@ -1,6 +1,6 @@
 ﻿using server.Entities;
 
-namespace server.Repository
+namespace server.Interface.Repository
 {
     public interface IUserRepository
     {

@@ -3,76 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\dto\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\dto\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\helper\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\helper\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\helper\\ijwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\helper\\ijwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\data\\authcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\data\\authcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\migrations\\20250605035919_userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\migrations\\20250605035919_userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\migrations\\20250605040144_userrefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\migrations\\20250605040144_userrefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\interface\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\interface\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\dto\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\dto\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\utils\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\utils\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,224 +54,140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JwtHelper.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Helper\\JwtHelper.cs",
-              "RelativeDocumentMoniker": "server\\Helper\\JwtHelper.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Helper\\JwtHelper.cs",
-              "RelativeToolTip": "server\\Helper\\JwtHelper.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBoAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:25:36.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "server\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "server\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAWwGoAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:35:52.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "server\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Controllers\\UserController.cs",
-              "RelativeToolTip": "server\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T15:47:44.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RefreshTokenDto.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Dto\\RefreshTokenDto.cs",
-              "RelativeDocumentMoniker": "server\\Dto\\RefreshTokenDto.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Dto\\RefreshTokenDto.cs",
-              "RelativeToolTip": "server\\Dto\\RefreshTokenDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:49:07.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "server\\Repository\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\IUserRepository.cs",
-              "RelativeToolTip": "server\\Repository\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:40:10.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Program.cs",
-              "RelativeDocumentMoniker": "server\\Program.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Program.cs",
-              "RelativeToolTip": "server\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAA0AAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T14:17:04.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IJwtHelper.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Helper\\IJwtHelper.cs",
-              "RelativeDocumentMoniker": "server\\Helper\\IJwtHelper.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Helper\\IJwtHelper.cs",
-              "RelativeToolTip": "server\\Helper\\IJwtHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:27:18.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "server\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\User.cs",
-              "RelativeToolTip": "server\\Entities\\User.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:26:07.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "server\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "server\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:40:34.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "server.csproj",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\server.csproj",
-              "RelativeDocumentMoniker": "server\\server.csproj",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\server.csproj",
-              "RelativeToolTip": "server\\server.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-28T14:14:53.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthContext.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Data\\AuthContext.cs",
-              "RelativeDocumentMoniker": "server\\Data\\AuthContext.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Data\\AuthContext.cs",
-              "RelativeToolTip": "server\\Data\\AuthContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T14:52:12.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20250605040144_UserRefreshToken.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Migrations\\20250605040144_UserRefreshToken.cs",
-              "RelativeDocumentMoniker": "server\\Migrations\\20250605040144_UserRefreshToken.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Migrations\\20250605040144_UserRefreshToken.cs",
-              "RelativeToolTip": "server\\Migrations\\20250605040144_UserRefreshToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T04:01:47.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20250605035919_UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Migrations\\20250605035919_UserRole.cs",
-              "RelativeDocumentMoniker": "server\\Migrations\\20250605035919_UserRole.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Migrations\\20250605035919_UserRole.cs",
-              "RelativeToolTip": "server\\Migrations\\20250605035919_UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T04:01:55.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.Development.json",
               "RelativeDocumentMoniker": "server\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.Development.json",
               "RelativeToolTip": "server\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-28T14:27:24.721Z"
+              "WhenOpened": "2025-06-05T11:30:02.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "server\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Product.cs",
-              "RelativeToolTip": "server\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T15:28:54.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.json",
               "RelativeDocumentMoniker": "server\\appsettings.json",
               "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.json",
               "RelativeToolTip": "server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-28T14:18:26.987Z"
+              "WhenOpened": "2025-06-05T11:28:57.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LoginUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Dto\\LoginUserDto.cs",
-              "RelativeDocumentMoniker": "server\\Dto\\LoginUserDto.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Dto\\LoginUserDto.cs",
-              "RelativeToolTip": "server\\Dto\\LoginUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:46:27.399Z"
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T11:18:04.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserRoles.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Utils\\UserRoles.cs",
-              "RelativeDocumentMoniker": "server\\Utils\\UserRoles.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Utils\\UserRoles.cs",
-              "RelativeToolTip": "server\\Utils\\UserRoles.cs",
+              "DocumentIndex": 5,
+              "Title": "server.http",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\server.http",
+              "RelativeDocumentMoniker": "server\\server.http",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\server.http",
+              "RelativeToolTip": "server\\server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-05T11:15:44.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "server\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\User.cs",
+              "RelativeToolTip": "server\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:25:02.861Z"
+              "WhenOpened": "2025-06-05T11:14:43.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "server\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Product.cs",
+              "RelativeToolTip": "server\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:14:13.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "server\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "server\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:12:12.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "server\\Interface\\Repository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "server\\Interface\\Repository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:33:59.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Program.cs",
+              "RelativeDocumentMoniker": "server\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Program.cs",
+              "RelativeToolTip": "server\\Program.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:31:45.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "server\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Data\\DataContext.cs",
+              "RelativeToolTip": "server\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:05:55.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "server\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "server\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:34:03.16Z"
             }
           ]
         }

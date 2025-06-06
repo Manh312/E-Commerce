@@ -8,22 +8,39 @@ obj/
 dist/
 build/
 tmp/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+out-tsc/  # Thêm từ file mẫu
+bazel-out/  # Thêm từ file mẫu
 
 # -----------------------------------
 # Node.js (Frontend - client)
 # -----------------------------------
+node_modules/  # Thêm ở gốc từ file mẫu
 client/node_modules/
+npm-debug.log  # Thêm ở gốc từ file mẫu
 client/npm-debug.log
+yarn-error.log  # Thêm ở gốc từ file mẫu
 client/yarn-error.log
+dist/  # Đã có trong Compiled output
 client/dist/
+build/  # Đã có trong Compiled output
 client/build/
-client/.angular/cache/  # Bao quát tsbuildinfo
+.angular/cache/  # Thêm ở gốc từ file mẫu
+client/.angular/cache/  # Bao quát tsbuildinfo và các file cache khác của Angular
 client/coverage/
 client/typings/
 client/*.log
 client/*.tmp
 client/*.js
-client/*.js.map  # Thêm để bỏ qua file map của Angular
+client/*.js.map  # Bỏ qua file map của Angular
+client/.cache/  # Bỏ qua cache của các công cụ frontend (như Parcel, Webpack)
 
 # -----------------------------------
 # .NET (Backend - server)
@@ -36,55 +53,103 @@ server/publish/
 server/TestResults/
 server/*.csproj.user
 server/*.dll
+server/.dotnet/  # Bỏ qua thư mục .NET tools
 server/*.exe
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
 # -----------------------------------
-# IDEs and editors
+# IDEs and editors (Visual Studio and others)
 # -----------------------------------
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode/  # Bỏ qua toàn bộ thư mục .vscode (theo yêu cầu trước)
 .idea/
-.project
-.classpath
-*.launch
-.settings/
-*.sublime-workspace
-*.swp
-*~
-.history/
 .vs/**  # Đảm bảo bao quát toàn bộ thư mục .vs, bao gồm applicationhost.config
 *.suo
 *.sln.docstates
 *.user
-*.ide/
-DOCUMENT_LAYOUT*.json
+*.rsuser
+*.userprefs
+*.dbmdl
+.history/
+*.code-workspace
+.localhistory/
+.vshistory/
+*.sln.iml
+.project  # Thêm từ file mẫu
+.classpath  # Thêm từ file mẫu
+.c9/  # Thêm từ file mẫu
+*.launch  # Thêm từ file mẫu
+.settings/  # Thêm từ file mẫu
+*.sublime-workspace  # Thêm từ file mẫu
 
 # -----------------------------------
-# Visual Studio IntelliCode, Copilot, and analysis tools
+# Visual Studio specific files
 # -----------------------------------
-*.db
-*.vsidx
-dtbcache.v2
-futdcache.v2
-*.metadata.v*.bin
+Generated\ Files/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+*.ilk
+*.pdb
+*.iobj
+*.tlog
+*.log
+*.tmp
+*.cachefile
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+*.psess
+*.vsp
+*.vspx
+*.e2e
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.[Cc]ache
+!?*.[Cc]ache/
 
 # -----------------------------------
-# System files
+# NuGet Packages
+# -----------------------------------
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# -----------------------------------
+# SQL Server files (if using local DB)
+# -----------------------------------
+*.mdf
+*.ldf
+*.ndf
+
+# -----------------------------------
+# Miscellaneous
+# -----------------------------------
+.sass-cache/  # Thêm từ file mẫu
+connect.lock  # Thêm từ file mẫu
+coverage/  # Thêm ở gốc từ file mẫu (đã có client/coverage/)
+libpeerconnection.log  # Thêm từ file mẫu
+testem.log  # Thêm từ file mẫu
+typings/  # Thêm ở gốc từ file mẫu (đã có client/typings/)
+
+# -----------------------------------
+# System and miscellaneous files
 # -----------------------------------
 .DS_Store
 Thumbs.db
 .env
 *.pfx
 *.p12
-
-# -----------------------------------
-# Miscellaneous
-# -----------------------------------
-.dotnet/
-.sass-cache/
-connect.lock
-libpeerconnection.log
-testem.log
+*.bak
+*.lock
+~$*
+*~
+*.publishsettings

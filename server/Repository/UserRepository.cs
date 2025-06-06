@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using server.Data;
 using server.Entities;
+using server.Interface.Repository;
 
 namespace server.Repository
 {
     public class UserRepository : IUserRepository
     {
-        private readonly Data.DbContext _context;
-        public UserRepository(Data.DbContext context)
+        private readonly Data.DataContext _context;
+        public UserRepository(Data.DataContext context)
         {
             this._context = context;
         }
