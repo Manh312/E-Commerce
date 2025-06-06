@@ -3,24 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\dto\\imagedtores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\dto\\imagedtores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\interface\\service\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\interface\\service\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\interface\\service\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\interface\\service\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\migrations\\20250606152552_productandimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\migrations\\20250606152552_productandimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\interface\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\interface\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\migrations\\20250605035846_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\migrations\\20250605035846_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\interface\\repository\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\interface\\repository\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\interface\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\interface\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\repository\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\repository\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -33,18 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|c:\\users\\admin\\downloads\\e-cormmercel\\server\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,103 +118,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "server\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.Development.json",
-              "RelativeToolTip": "server\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-05T11:30:02.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.json",
-              "RelativeDocumentMoniker": "server\\appsettings.json",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.json",
-              "RelativeToolTip": "server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-05T11:28:57.45Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "server\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Properties\\launchSettings.json",
-              "RelativeToolTip": "server\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-05T11:18:04.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "server.http",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\server.http",
-              "RelativeDocumentMoniker": "server\\server.http",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\server.http",
-              "RelativeToolTip": "server\\server.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-05T11:15:44.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "server\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\User.cs",
-              "RelativeToolTip": "server\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:14:43.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "server\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Product.cs",
-              "RelativeToolTip": "server\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:14:13.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "server\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "server\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:12:12.422Z"
+              "Title": "server",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\server.csproj",
+              "RelativeDocumentMoniker": "server\\server.csproj",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\server.csproj",
+              "RelativeToolTip": "server\\server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-06T15:24:25.67Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Repository\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "server\\Interface\\Repository\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Repository\\IGenericRepository.cs",
-              "RelativeToolTip": "server\\Interface\\Repository\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "server\\Mapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "server\\Mapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T10:33:59.031Z",
+              "WhenOpened": "2025-06-06T16:13:55.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImageDtoRes.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Dto\\ImageDtoRes.cs",
+              "RelativeDocumentMoniker": "server\\Dto\\ImageDtoRes.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Dto\\ImageDtoRes.cs",
+              "RelativeToolTip": "server\\Dto\\ImageDtoRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:10:48.886Z",
               "EditorCaption": ""
             },
             {
@@ -161,33 +167,309 @@
               "RelativeDocumentMoniker": "server\\Program.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Program.cs",
               "RelativeToolTip": "server\\Program.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAwwGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:31:45.59Z"
+              "WhenOpened": "2025-06-05T11:31:45.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Service\\ImageService.cs",
+              "RelativeDocumentMoniker": "server\\Interface\\Service\\ImageService.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Service\\ImageService.cs",
+              "RelativeToolTip": "server\\Interface\\Service\\ImageService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:51:42.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IImageService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Service\\IImageService.cs",
+              "RelativeDocumentMoniker": "server\\Interface\\Service\\IImageService.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Service\\IImageService.cs",
+              "RelativeToolTip": "server\\Interface\\Service\\IImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:30:13.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "server\\Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "server\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:16:35.556Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "server\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "server\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:34:44.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "server\\Interface\\Repository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "server\\Interface\\Repository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:33:59.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250606152552_ProductAndImage.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Migrations\\20250606152552_ProductAndImage.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20250606152552_ProductAndImage.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Migrations\\20250606152552_ProductAndImage.cs",
+              "RelativeToolTip": "server\\Migrations\\20250606152552_ProductAndImage.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwCkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:31:40.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "server\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "server\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:12:12.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.json",
+              "RelativeDocumentMoniker": "server\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.json",
+              "RelativeToolTip": "server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T11:28:57.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\appsettings.Development.json",
+              "RelativeToolTip": "server\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T11:30:02.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "server\\Data\\DataContext.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Data\\DataContext.cs",
               "RelativeToolTip": "server\\Data\\DataContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCYAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:05:55.093Z"
+              "WhenOpened": "2025-06-05T11:05:55.093Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
+              "Title": "20250605035846_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Migrations\\20250605035846_InitialCreate.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20250605035846_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Migrations\\20250605035846_InitialCreate.cs",
+              "RelativeToolTip": "server\\Migrations\\20250605035846_InitialCreate.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:24:06.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Image.cs",
+              "RelativeDocumentMoniker": "server\\Entities\\Image.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Image.cs",
+              "RelativeToolTip": "server\\Entities\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:40:48.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Repository\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "server\\Interface\\Repository\\IImageRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Repository\\IImageRepository.cs",
+              "RelativeToolTip": "server\\Interface\\Repository\\IImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:45:39.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Repository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "server\\Interface\\Repository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Interface\\Repository\\IProductRepository.cs",
+              "RelativeToolTip": "server\\Interface\\Repository\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:47:33.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "server\\Repository\\GenericRepository.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\GenericRepository.cs",
               "RelativeToolTip": "server\\Repository\\GenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T10:34:03.16Z"
+              "WhenOpened": "2025-06-05T10:34:03.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\ImageRepository.cs",
+              "RelativeDocumentMoniker": "server\\Repository\\ImageRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\ImageRepository.cs",
+              "RelativeToolTip": "server\\Repository\\ImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:42:30.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Brand.cs",
+              "RelativeDocumentMoniker": "server\\Entities\\Brand.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Brand.cs",
+              "RelativeToolTip": "server\\Entities\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:40:29.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "server\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "server\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:38:56.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "server\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "server\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:34:41.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T11:18:04.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "server.http",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\server.http",
+              "RelativeDocumentMoniker": "server\\server.http",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\server.http",
+              "RelativeToolTip": "server\\server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-05T11:15:44.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "server\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\User.cs",
+              "RelativeToolTip": "server\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:14:43.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "server\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\E-Cormmercel\\server\\Entities\\Product.cs",
+              "RelativeToolTip": "server\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:14:13.814Z",
+              "EditorCaption": ""
             }
           ]
         }

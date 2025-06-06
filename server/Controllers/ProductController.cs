@@ -5,7 +5,7 @@ using server.Interface.Repository;
 
 namespace server.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/product")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -16,12 +16,25 @@ namespace server.Controllers
         }
 
         [HttpGet]
-        [Route("getall")]
+        [Route("getallproduct")]
         public async Task<ActionResult<ResponseDto>> GetAllProducts()
         {
             ResponseDto responseDto = new ResponseDto();
             IEnumerable<Entities.Product> products = await _productRepository.GetAllAsync();
-            return Ok(products);
+
+            responseDto.Data = products;
+            return Ok(responseDto);
+        }
+
+        [HttpGet]
+        [Route("{productId}")]
+        public async Task<ActionResult<ResponseDto>> GetProduct(int productId)
+        {
+            ResponseDto responseDto = new ResponseDto();
+            Entities.Product product = await _productRepository.GetByIdAsync(productId);
+
+            responseDto.Data = product;
+            return Ok(responseDto);
         }
 
         [HttpPost()]
