@@ -1,10 +1,4 @@
 import {
-  ActivatedRoute,
-  NavigationEnd,
-  Router
-} from "./chunk-QD2Q36XM.js";
-import "./chunk-72C2KS53.js";
-import {
   animate,
   sequence,
   state,
@@ -12,6 +6,12 @@ import {
   transition,
   trigger
 } from "./chunk-KGUSKD2Z.js";
+import {
+  ActivatedRoute,
+  NavigationEnd,
+  Router
+} from "./chunk-QD2Q36XM.js";
+import "./chunk-72C2KS53.js";
 import "./chunk-TABPM75Z.js";
 import {
   CommonModule,
