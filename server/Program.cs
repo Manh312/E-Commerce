@@ -5,10 +5,10 @@ using Microsoft.IdentityModel.Tokens;
 using server.Data;
 using server.Helper;
 using server.Interface.Repository;
-using server.Interface.Service;
 using server.Interface.Services;
 using server.Mapper;
 using server.Repository;
+using server.Service;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

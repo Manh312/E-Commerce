@@ -24,6 +24,12 @@
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.2" />
+    <None Update="appsettings.json">
+    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+  </None>
+  <None Update="appsettings.Development.json">
+    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+  </None>
   </ItemGroup>
 
 </Project>

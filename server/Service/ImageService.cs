@@ -2,7 +2,7 @@
 using server.Interface.Repository;
 using server.Interface.Services;
 
-namespace server.Interface.Service
+namespace server.Service
 {
     public class ImageService : IImageService
     {
@@ -11,8 +11,8 @@ namespace server.Interface.Service
 
         public ImageService(IWebHostEnvironment environment, IImageRepository imageRepository ) 
         {
-            this._environment = environment;
-            this._imageRepository = imageRepository;
+            _environment = environment;
+            _imageRepository = imageRepository;
         }
         public async Task DeleteImageAsync(int Id)
         {

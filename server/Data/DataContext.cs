@@ -29,6 +29,25 @@ namespace server.Data
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)
                 .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Product>()
+                .HasOne(p => p.Thumbnail)
+                .WithOne(i => i.Product)
+                .HasForeignKey<Product>(p => p.ThumbnailId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            modelBuilder.Entity<ProductCategories>()
+                .HasOne(p => p.Image)
+                .WithOne(i => i.ProductCategories)
+                .HasForeignKey<ProductCategories>(p => p.ImageId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            modelBuilder.Entity<Brand>()
+                .HasOne(p => p.Image)
+                .WithOne(i => i.Brand)
+                .HasForeignKey<Brand>(p => p.ImageId)
+                .OnDelete(DeleteBehavior.NoAction);
+
             base.OnModelCreating(modelBuilder);
         }
 
