@@ -14,12 +14,12 @@
             get { return StockQuantity > 0 ? true : false; }
         }
         public bool IsFeatured { get; set; } = false;
-        public int CategoryId { get; set; }
+        public int ProductCategoriesId { get; set; }
         public ProductCategories ProductCategories { get; set; }
         public int BrandId { get; set; }
         public Brand Brand { get; set; }
         public ICollection<ProductReview> ProductReviews { get; set; }
-        public int ThumbnailId { get; set; }
-        public Image Thumbnail { get; set; }
+        public int? ThumbnailId { get; set; }
+        public Image? Thumbnail { get; set; }
     }
 }

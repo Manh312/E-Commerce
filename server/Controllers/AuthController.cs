@@ -4,8 +4,6 @@ using server.Dto;
 using server.Entities;
 using server.Helper;
 using server.Interface.Repository;
-using server.Repository;
-using System.Security.Claims;
 
 namespace server.Controllers
 {

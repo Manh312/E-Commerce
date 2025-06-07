@@ -1,4 +1,5 @@
-﻿using server.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using server.Data;
 using server.Entities;
 using server.Interface.Repository;
 
@@ -10,6 +11,11 @@ namespace server.Repository
         public ProductCategoriesRepository(DataContext context) : base(context)
         {
             this._context = context;
+        }
+
+        public async Task<IEnumerable<ProductCategories>> GetAllIncludingImage()
+        {
+            return await _context.ProductCategories.Include(b => b.Image).ToListAsync();
         }
     }
 }

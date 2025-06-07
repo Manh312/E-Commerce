@@ -17,9 +17,9 @@ namespace server.Service
         private readonly IMapper _mapper;
 
         public CatalogService(
-            IProductRepository productRepository, 
-            IProductCategoriesRepository productCategoriesRepository, 
-            IBrandRepository brandRepository, 
+            IProductRepository productRepository,
+            IProductCategoriesRepository productCategoriesRepository,
+            IBrandRepository brandRepository,
             IImageService imageService,
             IMapper mapper
             )
@@ -35,7 +35,7 @@ namespace server.Service
         {
             Image image = await this._imageService.SaveImageAsync(inData.Image);
             Brand brand = _mapper.Map<Brand>(inData);
-            brand.Image = image;
+            brand.ImageId = image.Id;
             return await _brandRepository.AddAsync(brand);
         }
 
@@ -80,7 +80,7 @@ namespace server.Service
                 throw new Exception($"Invalid Brand Id {brandId}");
             }
 
-            await _imageService.DeleteImageAsync(brand.ImageId);
+            await _imageService.DeleteImageAsync(brand.ImageId.Value);
 
             await _brandRepository.DeleteAsync(brand);
         }
@@ -93,7 +93,7 @@ namespace server.Service
                 throw new Exception($"Invalid Product Categories Id {productCategoriesId}");
             }
 
-            await _imageService.DeleteImageAsync(productCategories.ImageId);
+            await _imageService.DeleteImageAsync(productCategories.ImageId.Value);
 
             await _productCategoriesRepository.DeleteAsync(productCategories);
         }
@@ -106,23 +106,23 @@ namespace server.Service
                 throw new Exception($"Invalid Product Id {productId}");
             }
 
-            await _imageService.DeleteImageAsync(product.ThumbnailId);
+            await _imageService.DeleteImageAsync(product.ThumbnailId.Value);
             await _productRepository.DeleteAsync(product);
         }
 
-        public Task<IEnumerable<Product>> GetAllBrand()
+        public async Task<IEnumerable<Brand>> GetAllBrand()
         {
-            throw new NotImplementedException();
+            return await _brandRepository.GetAllIncludingImage();
         }
 
-        public Task<IEnumerable<Product>> GetAllProductCategories()
+        public async Task<IEnumerable<ProductCategories>> GetAllProductCategories()
         {
-            throw new NotImplementedException();
+            return await _productCategoriesRepository.GetAllIncludingImage();
         }
 
-        public Task<IEnumerable<Product>> GetAllProducts()
+        public async Task<Pagination<Product>> GetAllProducts(CatalogSpec inData)
         {
-            throw new NotImplementedException();
+            return await _productRepository.GetAllIncludingChildEntities(inData);
         }
     }
 }

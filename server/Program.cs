@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using server.Data;
 using server.Helper;
 using server.Interface.Repository;
+using server.Interface.Service;
 using server.Interface.Services;
 using server.Mapper;
 using server.Repository;
@@ -26,8 +27,6 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var key = Encoding.UTF8.GetBytes(configuration["Jwt:Key"]);
 builder.Services.AddAuthentication(x =>
@@ -54,9 +53,15 @@ builder.Services.AddAuthentication(x =>
 builder.Services.AddScoped<IJwtHelper, JwtHelper>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductCategoriesRepository, ProductCategoriesRepository>();
+builder.Services.AddScoped<IBrandRepository, BrandRepository>();
 builder.Services.AddScoped<IImageRepository, ImageRepository>();
 builder.Services.AddScoped<IImageService, ImageService>();
+builder.Services.AddScoped<ICatalogService, CatalogService>();
 
+
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
 builder.Services.AddSwaggerGen(options =>

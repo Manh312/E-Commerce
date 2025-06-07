@@ -11,9 +11,12 @@ namespace server.Mapper
             // Ánh xạ từ User sang UserDto và ngược lại
             CreateMap<User, UserDto>();
             CreateMap<Image, ImageDtoRes>();
-            CreateMap<Entities.Product, CreateProductReq>().ReverseMap();
-            CreateMap<Brand, CreateBrandReq>().ReverseMap();
-            CreateMap<ProductCategories, CreateProductCategoriesReq>().ReverseMap();
+            CreateMap<CreateProductReq, Entities.Product>()
+                .ForMember(x => x.Thumbnail, opt => opt.Ignore());
+            CreateMap<CreateBrandReq, Brand>()
+                .ForMember(x => x.Image, opt => opt.Ignore());
+            CreateMap<CreateProductCategoriesReq, ProductCategories>()
+                .ForMember(x => x.Image, opt => opt.Ignore());
         }
     }
 }
